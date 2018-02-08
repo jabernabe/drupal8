@@ -1,0 +1,14 @@
+{
+  "name": "drupal/hm",
+  "type": "drupal-module",
+  "description": "est",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/hm",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/hm",
+    "source": "http://cgit.drupalcode.org/hm"
+  },
+  "require": { }
+}
