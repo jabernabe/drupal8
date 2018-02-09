@@ -16,12 +16,12 @@ class DefaultController extends ControllerBase {
    *   Return Hello string.
    */
   public function hello($name) {
-    
+
       $message = $this->t('Hello <strong>%name</strong>',[
           '%name' =>$name
           ]);
 
-    return ['markup' => $message];
+    return ['#markup' => $message];
 
   }
 
