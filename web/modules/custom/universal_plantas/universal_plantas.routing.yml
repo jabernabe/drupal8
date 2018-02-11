@@ -1,0 +1,8 @@
+
+universal_plantas.universal_controller_universal:
+  path: '/uv'
+  defaults:
+    _controller: '\Drupal\universal_plantas\Controller\UniversalController::universal'
+    _title: 'Controlador Universal Plantas'
+  requirements:
+    _permission: 'access content'
