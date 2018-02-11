@@ -1,0 +1,22 @@
+# Rosal routing definition
+rosal.settings_tab:
+  route_name: rosal.settings
+  title: 'Settings'
+  base_route: rosal.settings
+
+entity.rosal.canonical:
+  route_name: entity.rosal.canonical
+  base_route: entity.rosal.canonical
+  title: 'View'
+
+entity.rosal.edit_form:
+  route_name: entity.rosal.edit_form
+  base_route: entity.rosal.canonical
+  title: 'Edit'
+
+entity.rosal.delete_form:
+  route_name:  entity.rosal.delete_form
+  base_route:  entity.rosal.canonical
+  title: Delete
+  weight: 10
+

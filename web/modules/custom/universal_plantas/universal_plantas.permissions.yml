@@ -1,0 +1,19 @@
+add rosal entities:
+  title: 'Create new Rosal entities'
+
+administer rosal entities:
+  title: 'Administer Rosal entities'
+  description: 'Allow to access the administration form to configure Rosal entities.'
+  restrict access: true
+
+delete rosal entities:
+  title: 'Delete Rosal entities'
+
+edit rosal entities:
+  title: 'Edit Rosal entities'
+
+view published rosal entities:
+  title: 'View published Rosal entities'
+
+view unpublished rosal entities:
+  title: 'View unpublished Rosal entities'

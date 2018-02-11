@@ -1,0 +1,14 @@
+
+# Rosal menu items definition
+entity.rosal.collection:
+  title: 'Rosal list'
+  route_name: entity.rosal.collection
+  description: 'List Rosal entities'
+  parent: system.admin_structure
+  weight: 100
+
+rosal.admin.structure.settings:
+  title: 'Rosal settings'
+  description: 'Configure Rosal entities'
+  route_name: rosal.settings
+  parent: system.admin_structure
