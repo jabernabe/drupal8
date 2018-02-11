@@ -1,0 +1,22 @@
+{#
+/**
+ * @file rosal.html.twig
+ * Default theme implementation to present Rosal data.
+ *
+ * This template is used when viewing Rosal pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_rosal()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('rosal') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

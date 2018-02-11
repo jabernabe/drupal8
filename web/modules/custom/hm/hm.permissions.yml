@@ -1,0 +1,30 @@
+add rosal entities:
+  title: 'Create new Rosal entities'
+
+administer rosal entities:
+  title: 'Administer Rosal entities'
+  description: 'Allow to access the administration form to configure Rosal entities.'
+  restrict access: true
+
+delete rosal entities:
+  title: 'Delete Rosal entities'
+
+edit rosal entities:
+  title: 'Edit Rosal entities'
+
+view published rosal entities:
+  title: 'View published Rosal entities'
+
+view unpublished rosal entities:
+  title: 'View unpublished Rosal entities'
+
+view all rosal revisions:
+  title: 'View all Rosal revisions'
+
+revert all rosal revisions:
+  title: 'Revert all Rosal revisions'
+  description: 'Role requires permission <em>view Rosal revisions</em> and <em>edit rights</em> for rosal entities in question or <em>administer rosal entities</em>.'
+
+delete all rosal revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Rosal revisions</em> and <em>delete rights</em> for rosal entities in question or <em>administer rosal entities</em>.'

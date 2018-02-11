@@ -1,0 +1,5 @@
+entity.rosal.add_form:
+  route_name: entity.rosal.add_form
+  title: 'Add Rosal'
+  appears_on:
+    - entity.rosal.collection
